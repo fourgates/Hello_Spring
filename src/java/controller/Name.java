@@ -9,6 +9,7 @@ package controller;
  * @author FourGates
  */
 public class Name {
+    
     private String value;
 
     public String getValue() {
