@@ -36,8 +36,10 @@ public class JSONController {
     void handleRequest(Exception exception,
             HttpServletRequest request, HttpServletResponse response) throws IOException 
     {
+        
         response.setContentType("application/json");
         String json = "{\"Name\": 50}";
+        System.out.println(json);
         PrintWriter out = response.getWriter();
         out.write(json);
     }
